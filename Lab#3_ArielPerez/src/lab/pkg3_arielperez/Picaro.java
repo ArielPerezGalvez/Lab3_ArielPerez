@@ -9,17 +9,16 @@ package lab.pkg3_arielperez;
  *
  * @author ariel
  */
-public class Arquero extends Personajes_Aliados {
+public class Picaro extends Personajes_Aliados {
     
-    public Arquero(int suerte, String nombre, int edad, double estatura, double peso, String colorp, String raza, int hp, int ad, int eficacia, int critico, int velocidad) {
+    public Picaro(int suerte, String nombre, int edad, double estatura, double peso, String colorp, String raza, int hp, int ad, int eficacia, int critico, int velocidad) {
         super(suerte, nombre, edad, estatura, peso, colorp, raza, hp, ad, eficacia, critico, velocidad);
         this.setHp(150);
-        this.setAd(50);
+        this.setAd(55);
         this.setEficacia(85);
         this.setCritico(60);
-        this.setSuerte(20);
-        this.setVelocidad(15);
+        this.setSuerte(50);
+        this.setVelocidad(30);
     }
     
-    
-}//fin de la clase
+}//fin de la clase 

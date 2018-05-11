@@ -9,6 +9,11 @@ package lab.pkg3_arielperez;
  *
  * @author ariel
  */
-public class Personaje_Enemigo {
-    
-}
+public class Personaje_Enemigo extends Jugador {
+
+    public Personaje_Enemigo(String nombre, int edad, double estatura, double peso, String colorp, String raza, int hp, int ad, int eficacia, int critico, int velocidad) {
+        super(nombre, edad, estatura, peso, colorp, raza, hp, ad, eficacia, critico, velocidad);
+        
+    }
+
+}//fin de la clase
