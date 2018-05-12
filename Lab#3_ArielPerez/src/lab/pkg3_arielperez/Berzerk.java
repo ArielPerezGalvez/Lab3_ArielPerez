@@ -9,7 +9,9 @@ package lab.pkg3_arielperez;
  *
  * @author ariel
  */
-public class Berzerk extends Personajes_Aliados{
+public class Berzerk extends Personajes_Aliados {
+
+    private String p = "";
 
     public Berzerk(int suerte, String nombre, int edad, double estatura, double peso, String colorp, String raza, int hp, int ad, int eficacia, int critico, int velocidad) {
         super(suerte, nombre, edad, estatura, peso, colorp, raza, hp, ad, eficacia, critico, velocidad);
@@ -19,9 +21,11 @@ public class Berzerk extends Personajes_Aliados{
         this.setCritico(30);
         this.setSuerte(15);
         this.setVelocidad(20);
+        System.out.println("SOMOS LOS BERZERK");
+        System.out.println("A la batalla!!!");
+        p = "ARRRRR";
+        System.out.println(p);
+        System.out.println("Get ready!!");
     }
 
-    
-    
-    
 }//fin de la clase

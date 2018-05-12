@@ -10,7 +10,7 @@ package lab.pkg3_arielperez;
  * @author ariel
  */
 public class Arquero extends Personajes_Aliados {
-    
+    private String a="";
     public Arquero(int suerte, String nombre, int edad, double estatura, double peso, String colorp, String raza, int hp, int ad, int eficacia, int critico, int velocidad) {
         super(suerte, nombre, edad, estatura, peso, colorp, raza, hp, ad, eficacia, critico, velocidad);
         this.setHp(150);
@@ -19,6 +19,11 @@ public class Arquero extends Personajes_Aliados {
         this.setCritico(60);
         this.setSuerte(20);
         this.setVelocidad(15);
+        System.out.println("SOMOS LOS ARQUEROS");
+        System.out.println("A LANZAR!!!");
+        a ="LAAAALLLL";
+        System.out.println(a);
+        System.out.println("Consigue tu arcol l) ---->");
     }
     
     

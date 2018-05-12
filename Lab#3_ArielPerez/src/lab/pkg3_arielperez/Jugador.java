@@ -15,7 +15,7 @@ public class Jugador {
     private int edad;
     private double estatura;
     private double peso;
-    private String colorp;
+    private String colorpiel;
     private String raza;
     private int hp;
     private int ad;
@@ -31,7 +31,7 @@ public class Jugador {
         this.edad = edad;
         this.estatura = estatura;
         this.peso = peso;
-        this.colorp = colorp;
+        this.colorpiel = colorp;
         this.raza = raza;
         this.hp = hp;
         this.ad = ad;
@@ -73,11 +73,11 @@ public class Jugador {
     }
 
     public String getColorp() {
-        return colorp;
+        return colorpiel;
     }
 
     public void setColorp(String colorp) {
-        this.colorp = colorp;
+        this.colorpiel = colorp;
     }
 
     public String getRaza() {
@@ -130,7 +130,7 @@ public class Jugador {
 
     @Override
     public String toString() {
-        return "Jugador{" + "nombre=" + nombre + ", edad=" + edad + ", estatura=" + estatura + ", peso=" + peso + ", colorp=" + colorp + ", raza=" + raza + ", hp=" + hp + ", ad=" + ad + ", eficacia=" + eficacia + ", critico=" + critico + ", velocidad=" + velocidad + '}';
+        return "Jugador{" + "nombre=" + nombre + ", edad=" + edad + ", estatura=" + estatura + ", peso=" + peso + ", colorpiel=" + colorpiel + ", raza=" + raza + ", hp=" + hp + ", ad=" + ad + ", eficacia=" + eficacia + ", critico=" + critico + ", velocidad=" + velocidad + '}';
     }
 
 }//fin de la clase jugadors
